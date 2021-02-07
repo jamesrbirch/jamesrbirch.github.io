@@ -71,7 +71,7 @@ naver_site_verification:
 
 # Social Sharing
 twitter:
-    username: jamesrb_
+    username: jamesrbirch
 facebook:
     username:
     app_id:
@@ -94,8 +94,8 @@ analytics:
 # Site Author
 author:
     name: 'James Birch'
-    avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-    bio: 'I am an **amazing** person.'
+    avatar: '/assets/images/profile.jpg' # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+    bio: 'Husband, cat dad, developer. Favouring C#, SQL, Typescript.  Might go bonkers and try F#.'
     location: 'UK'
     email:
     links:
@@ -107,7 +107,7 @@ author:
           # url: "https://your-website.com"
         - label: 'Twitter'
           icon: 'fab fa-fw fa-twitter-square'
-          # url: "https://twitter.com/"
+          url: 'https://twitter.com/jamesrbirch'
         - label: 'Facebook'
           icon: 'fab fa-fw fa-facebook-square'
           # url: "https://facebook.com/"
