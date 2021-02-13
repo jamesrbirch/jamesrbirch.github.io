@@ -2,11 +2,11 @@
 
 ### Also known as let's play with linux and docker
 
-I had some spare time this weekend and decided it was time to dust off the old laptop I had in a draw and see what we can use it for. It's a HP Envy 4 core / 8 thread 12Gb Ram machine so it's perfect for firing up some semi-perminent test / dev / I'm making this for my fiánce projects.
+I had some spare time this weekend and decided it was time to dust off the old laptop I had in a draw and see what we can use it for. It's a HP Envy 4 core / 8 thread 12Gb Ram machine so it's perfect for firing up some semi-permanent test / dev / "I'm making this for my fiánce" projects.
 
 ## Step 1: Linux
 
-This particular model of the Envy is notorious for having really bad cooling, running Windows 10 this had 70-80 celcius cpu cores temperatures downloading a Windows update. I did a clean of the fan and general case clean, I should have replaced the thermal paste as well but I didn't have any to hand.
+This particular model of the Envy is notorious for having really bad cooling, running Windows 10 this had 70-80 celsius cpu cores temperatures downloading a Windows update. I did a clean of the fan and general case clean, I should have replaced the thermal paste as well but I didn't have any to hand.
 
 So! Linux time.. hopefully that will be a little nicer to our old girl. It also gives me an excuse to try using linux to achieve a goal, instead of giving up with it after an hour or two as I have done in the past.
 
@@ -20,7 +20,7 @@ Requirements:
 
 Alter the bios to boot from the USB, I needed to jump through a few hoops with the HP Envy bios.
 
-1.  Have the Ubunutu USB drive prepared and in the USB port then turn on the computer
+1.  Have the Ubuntu USB drive prepared and in the USB port then turn on the computer
 2.  As soon as the laptop is on keep pressing the Escape key which will present a start up menu
 3.  Press F10 to go into the BIOS
 4.  In the Boot Menu make sure:
@@ -28,7 +28,7 @@ Alter the bios to boot from the USB, I needed to jump through a few hoops with t
     -   Legacy Support is enabled
     -   In System Configuration set USB3.0 Config in Pre-Boot is Auto
 5.  F10 to Save and Restart
-6.  Press Escape repeately once the system has restarted to get back to the start up menu
+6.  Press Escape repeatedly once the system has restarted to get back to the start up menu
 7.  Press F9 to open the Boot Device menu
 8.  Select USB drive to boot from
 9.  Follow the installation steps
