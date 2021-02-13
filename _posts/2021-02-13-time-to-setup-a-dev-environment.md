@@ -37,7 +37,7 @@ Alter the bios to boot from the USB, I needed to jump through a few hoops with t
 
 We can remote onto linux and execute commands by using ssh. We first need to configure an ssh server on the linux machine.
 
-https://vitux.com/how-to-remotely-manage-a-ubuntu-server-with-ssh/
+[Configure SSH](https://vitux.com/how-to-remotely-manage-a-ubuntu-server-with-ssh/)
 
 Once setup we can
 
@@ -55,18 +55,19 @@ ip addr show
 
 Make sure the laptop doesn't turn off when the lid is closed.
 
-https://askubuntu.com/questions/15520/how-can-i-tell-ubuntu-to-do-nothing-when-i-close-my-laptop-lid
+[Lid action config](https://askubuntu.com/questions/15520/how-can-i-tell-ubuntu-to-do-nothing-when-i-close-my-laptop-lid)
 
 ## Step 4: Docker Install
 
-https://docs.docker.com/engine/install/ubuntu/
-https://phoenixnap.com/kb/install-docker-on-ubuntu-20-04
+[Install Docker](https://docs.docker.com/engine/install/ubuntu/)
+
+[Install and use Docker](https://phoenixnap.com/kb/install-docker-on-ubuntu-20-04)
 
 ## Step 5: Testing out Docker
 
 ## Step 6: Remote Deployment
 
-https://www.docker.com/blog/how-to-deploy-on-remote-docker-hosts-with-docker-compose/
+[Remote Docker](https://www.docker.com/blog/how-to-deploy-on-remote-docker-hosts-with-docker-compose/)
 
 ## Step 7: Typing an IP address sucks
 
