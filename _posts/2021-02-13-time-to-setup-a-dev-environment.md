@@ -45,6 +45,31 @@ Once setup we can
 ssh 192.168.1.81
 ```
 
+### Bonus: A nice theme with Oh my zsh
+
+Oh my zsh allows more customisation than the default bash shell.
+
+Install the prerequisites:
+
+```shell
+sudo apt update
+sudo apt install git zsh -y
+```
+
+Install Oh my zsh:
+
+```shell
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+When prompted say yes to switching your shell to zsh.
+
+Pick your theme of choice by editing `~/.zshrc`
+
+A new combined shell is Oh My Posh 3. Giving a common experience across all shells now, I like it, let's give it a go!
+
+[Oh My Posh 3](https://ohmyposh.dev/)
+
 ## Step 3: Other Linux Config options
 
 Set the IP address
