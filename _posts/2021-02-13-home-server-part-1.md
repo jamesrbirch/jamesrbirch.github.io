@@ -1,4 +1,10 @@
-# Time to setup a dev environment
+excerpt: "This post should [...]"
+header:
+overlay_image: /assets/images/photo-1612894950440-8b3873c2ecf1.jpg
+overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+actions: - label: "More Info"
+url: "https://unsplash.com"
 
 I had some spare time this weekend and decided it was time to dust off the old laptop I had in a draw and see what we can use it for. It's a HP Envy 4 core / 8 thread 12Gb Ram machine so it's perfect for firing up some semi-permanent test / dev / "I'm making this for my fiánce" projects.
 
