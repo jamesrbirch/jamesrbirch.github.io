@@ -1,3 +1,11 @@
+excerpt: "This post should [...]"
+header:
+overlay_image: /assets/images/photo-1612894950440-8b3873c2ecf1.jpg
+overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+actions: - label: "More Info"
+url: "https://unsplash.com"
+
 I had some spare time this weekend and decided it was time to dust off the old laptop I had in a draw and see what we can use it for. It's a HP Envy 4 core / 8 thread 12Gb Ram machine so it's perfect for firing up some semi-permanent test / dev / "I'm making this for my fiánce" projects.
 
 ## 📜 The plan
@@ -79,14 +87,62 @@ chmod 666 ~/.poshthemes/*.json
 
 😬
 
-## Step 3: Other Linux Config options
+## 🏠 Set up a static IP address
 
-Set the IP address
+First we need to get the network name:
 
 ```shell
 ip addr show
 ```
 
-Make sure the laptop doesn't turn off when the lid is closed.
+![](..\assets\images\2021\02\ipaddrshow.jpg)
 
-[Lid action config](https://askubuntu.com/questions/15520/how-can-i-tell-ubuntu-to-do-nothing-when-i-close-my-laptop-lid)
+We can use Netplan to configure a static IP address configuration. The default configuration file is /etc/netplan/01-netcfg.yaml.
+
+```shell
+sudo nano /etc/netplan/00-installer-config.yaml
+```
+
+Enter the ip details you want:
+
+```
+# This file describes the network interfaces available on your system
+# For more information, see netplan(5).
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    wlp8s0:
+      dhcp4: no
+      dhcp6: no
+      addresses: [192.168.1.81/24]
+      gateway4: 192.168.1.1
+      nameservers:
+        addresses: [1.1.1.1,8.8.8.8]
+```
+
+Save the file and apply the changes:
+
+```
+sudo netplan apply
+```
+
+## 💻 Make sure the laptop doesn't turn off when the lid is closed.
+
+Open the `/etc/systemd/logind.conf` file in a text editor as root, for example,
+
+```shell
+sudo nano /etc/systemd/logind.conf
+```
+
+Set HandleLidSwitch to ignore:
+
+```
+HandleLidSwitch=ignore
+```
+
+Restart the systemd daemon :
+
+```shell
+sudo service systemd-logind restart
+```
