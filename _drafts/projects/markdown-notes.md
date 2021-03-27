@@ -15,6 +15,7 @@
 ### 💚 2nd Phase
 
 -   💚 Users must be able to use markdown to create a note
+-   💚 When a user views a note they should see the notes rendered correctly
 -   💚 Split screen preview
 -   💚 Live update to split screen preview
 
@@ -41,10 +42,10 @@
 -   💡 Assign a template type per folder
 -   💡 Share documents and folders with other people
 -   💡 Create a website based on contents
+-   💡 Can use markdown notes to create and link to tasks
+-   💡 Ability to give an URL and the app can convert the webpage to markdown
 
-## General Features
-
-# Technology
+## Technology
 
 -   Must use Auth0 as authentication provider
 -   Must use a .net core API backend
@@ -52,8 +53,17 @@
 -   Must have tests
 -   Must use a CI/CD pipeline
 -   Must use Docker
+-   Must use Postgresql
+-   Must use Rider
+-   Must use Dapper as SQL access
+-   Must have database migrations
 
-# General
+The idea is to test out securing a .net core API with Auth0 and have the application running in a container.
+
+The application can be rewritten later to test out serverless computing on AWS.
+With this in mind we need to write the application so that file storage and processes can be replaced.
+
+## General
 
 -   Must support multiple languages?
 -   Must support emojis
