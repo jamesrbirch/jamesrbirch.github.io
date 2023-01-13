@@ -1,11 +1,11 @@
 {
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-37e9761b.js",
+    "file": "_app/immutable/start-6bd18ada.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-dc704e0c.js",
-      "_singletons-90123f18.js",
+      "_singletons-8a2c3409.js",
       "_preload-helper-aa6bc0ce.js"
     ],
     "dynamicImports": [
@@ -32,12 +32,12 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-f53e7a2d.js",
+    "file": "_app/immutable/components/error.svelte-634dacb3.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_index-dc704e0c.js",
-      "_singletons-90123f18.js"
+      "_singletons-8a2c3409.js"
     ]
   },
   "src/routes/blog/[slug]/+layout.svelte": {
@@ -134,8 +134,8 @@
       "__page-270afd77.js"
     ]
   },
-  "_singletons-90123f18.js": {
-    "file": "_app/immutable/chunks/singletons-90123f18.js",
+  "_singletons-8a2c3409.js": {
+    "file": "_app/immutable/chunks/singletons-8a2c3409.js",
     "imports": [
       "_index-dc704e0c.js"
     ]
@@ -174,7 +174,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-af919ea7.js",
+    "file": "_app/immutable/chunks/1-63c94460.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -275,10 +275,6 @@
     "file": "_app/immutable/assets/_layout-3e83edec.css",
     "src": "src/routes/blog/[slug]/+layout.css"
   },
-  "src/routes/+page.css": {
-    "file": "_app/immutable/assets/_page-94c382f3.css",
-    "src": "src/routes/+page.css"
-  },
   "src/routes/blog/[slug]/+page.css": {
     "file": "_app/immutable/assets/_page-2c531ec5.css",
     "src": "src/routes/blog/[slug]/+page.css"
@@ -286,6 +282,10 @@
   "src/routes/blog/+page.css": {
     "file": "_app/immutable/assets/_page-1d5e15cd.css",
     "src": "src/routes/blog/+page.css"
+  },
+  "src/routes/+page.css": {
+    "file": "_app/immutable/assets/_page-94c382f3.css",
+    "src": "src/routes/+page.css"
   },
   "vsc-dark-plus.css": {
     "file": "_app/immutable/assets/vsc-dark-plus-409bb2fd.css",
