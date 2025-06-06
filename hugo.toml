@@ -5,7 +5,7 @@ theme = 'hugo-coder' # Make sure your theme is set
 
 [params]
   author = "James Birch"
-  info = "Engineering Manager | Building Products, Empowering Teams."
+  info = "Engineering Manager | Building Value-Driven Products & Empowering Teams"
   description = "James Birch's personal website"
   keywords = "blog,developer,personal,engineer,leader,edtech,saas"
   avatarURL = "/images/avatar.jpg" # Assumes image is in static/images/my_avatar.png
