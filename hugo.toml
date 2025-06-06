@@ -5,9 +5,9 @@ theme = 'hugo-coder' # Make sure your theme is set
 
 [params]
   author = "James Birch"
-  info = "Ed-Tech SaaS Leader | Building Technology & Teams."
+  info = "Engineering Manager | Building Products, Empowering Teams."
   description = "James Birch's personal website"
-  keywords = "blog,developer,personal,engineer,devops"
+  keywords = "blog,developer,personal,engineer,leader,edtech,saas"
   avatarURL = "/images/avatar.jpg" # Assumes image is in static/images/my_avatar.png
   dateFormat = "January 2, 2006"
   
@@ -15,7 +15,7 @@ theme = 'hugo-coder' # Make sure your theme is set
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"
   touchIcon = "/images/apple-touch-icon.png"
-  colorScheme = "dark" # or "auto" or "light"
+  colorScheme = "auto" # or "auto" or "light" or "dark"
 
 [[params.social]]
 name = "Github"
@@ -32,13 +32,13 @@ url = "https://www.linkedin.com/in/jamesrbirch/"
 # Main menu
 [menu]
   [[menu.main]]
-    name = "About"
+    name = "My Journey"
     url  = "/about/"
     weight = 1
-  [[menu.main]]
-    name = "Blog"
-    url  = "/blog/"
-    weight = 2
+#  [[menu.main]]
+#    name = "Blog"
+#    url  = "/blog/"
+#    weight = 2
 #  [[menu.main]]
 #    name = "Projects"
 #    url = "/projects/"
