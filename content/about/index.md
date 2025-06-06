@@ -2,7 +2,7 @@
 
 ## Building Value-Driven Products and Empowering Teams
 
-Hello, I'm James Birch. For over 15 years, I have built my career in the technology sector, evolving from a hands-on software engineer to a leader of dynamic, product-focused teams. My passion lies in the space where a deep understanding of user needs informs the creation of truly valuable and reliable software.
+Hello, I'm James Birch. I have spent nearly 20 years in the technology sector, with the last 15 specialising in the UK Ed-Tech space. I’ve grown from a hands-on software engineer to a leader of dynamic, product-focused teams. My passion lies in the space where a deep understanding of user needs informs the creation of truly valuable and reliable software.
 
 While much of my experience has been in the UK Ed-Tech sector, where I was proud to contribute to products with a positive social impact, the core of my work is universal: solving complex problems through technology. A defining period of my career was an eight-year journey leading two core SaaS products from concept to maturity. This experience taught me that success is not just about elegant code; it's about deeply understanding the user's world—an approach that led to one product being adopted by over half of all UK secondary schools. Seeing this real-world impact and the resulting customer loyalty cemented my belief in a value-driven development culture.
 
