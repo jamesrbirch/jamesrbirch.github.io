@@ -12,10 +12,17 @@ theme = 'hugo-coder' # Make sure your theme is set
   dateFormat = "January 2, 2006"
   
   # Other params...
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
-  touchIcon = "/images/apple-touch-icon.png"
+  favicon = "/favicon.ico"
+  favicon_32 = "/favicon-32x32.png"
+  favicon_16 = "/favicon-16x16.png"
+  touchIcon = "/apple-touch-icon.png"
   colorScheme = "auto" # or "auto" or "light" or "dark"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 4
+url = "https://www.linkedin.com/in/jamesrbirch/"
 
 [[params.social]]
 name = "Github"
@@ -23,11 +30,6 @@ icon = "fa-brands fa-github fa-2x"
 weight = 1
 url = "https://github.com/jamesrbirch/"
 
-[[params.social]]
-name = "LinkedIn"
-icon = "fa-brands fa-linkedin fa-2x"
-weight = 4
-url = "https://www.linkedin.com/in/jamesrbirch/"
 
 # Main menu
 [menu]
